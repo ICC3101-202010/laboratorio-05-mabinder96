@@ -121,5 +121,11 @@ namespace Lab5
             return "http://pluscorporation.com/verificar-correo.php?=" + usr + "_" + result;
         }
 
+        //Al disparar el evento OnEmailVerified, el servido muestra en pantalla que la cuenta fue verificada
+        public void OnEmailVerified(object source, EmailSentArgs e)
+        {
+            Console.WriteLine("Cuenta verificada correctamente\n");
+        }
+
     }
 }

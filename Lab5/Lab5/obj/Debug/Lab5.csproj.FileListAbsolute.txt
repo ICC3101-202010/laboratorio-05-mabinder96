@@ -5,3 +5,10 @@ C:\Users\usuario\Documents\Ingeniería civil\Quinto semestre\Programación orien
 C:\Users\usuario\Documents\Ingeniería civil\Quinto semestre\Programación orientada a objetos\Laboratorios\Laboratorio 5\laboratorio-05-mabinder96\Lab5\Lab5\bin\Debug\Lab5.pdb
 C:\Users\usuario\Documents\Ingeniería civil\Quinto semestre\Programación orientada a objetos\Laboratorios\Laboratorio 5\laboratorio-05-mabinder96\Lab5\Lab5\obj\Debug\Lab5.exe
 C:\Users\usuario\Documents\Ingeniería civil\Quinto semestre\Programación orientada a objetos\Laboratorios\Laboratorio 5\laboratorio-05-mabinder96\Lab5\Lab5\obj\Debug\Lab5.pdb
+C:\Users\kikil\Documents\Universidad\Programación orientada a objetos\Laboratorios\Laboratorio 5\laboratorio-05-mabinder96\Lab5\Lab5\bin\Debug\Lab5.exe.config
+C:\Users\kikil\Documents\Universidad\Programación orientada a objetos\Laboratorios\Laboratorio 5\laboratorio-05-mabinder96\Lab5\Lab5\bin\Debug\Lab5.exe
+C:\Users\kikil\Documents\Universidad\Programación orientada a objetos\Laboratorios\Laboratorio 5\laboratorio-05-mabinder96\Lab5\Lab5\bin\Debug\Lab5.pdb
+C:\Users\kikil\Documents\Universidad\Programación orientada a objetos\Laboratorios\Laboratorio 5\laboratorio-05-mabinder96\Lab5\Lab5\obj\Debug\Lab5.csprojAssemblyReference.cache
+C:\Users\kikil\Documents\Universidad\Programación orientada a objetos\Laboratorios\Laboratorio 5\laboratorio-05-mabinder96\Lab5\Lab5\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
+C:\Users\kikil\Documents\Universidad\Programación orientada a objetos\Laboratorios\Laboratorio 5\laboratorio-05-mabinder96\Lab5\Lab5\obj\Debug\Lab5.exe
+C:\Users\kikil\Documents\Universidad\Programación orientada a objetos\Laboratorios\Laboratorio 5\laboratorio-05-mabinder96\Lab5\Lab5\obj\Debug\Lab5.pdb

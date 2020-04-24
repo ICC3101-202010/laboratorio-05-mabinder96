@@ -17,17 +17,22 @@ namespace Lab5
             Server server = new Server(database);
             MailSender mailSender = new MailSender();
             SMSSender smsSender = new SMSSender();
+            User user = new User();
 
 
             //Suscribir los que escuchan los eventos
             // Notar que para poder realizar las suscripciones es necesario tener instancias de las clases, y que los parametros
             // del evento y del metodo que se le suscribe deben ser igual (object y eventargs)
-            //1- Suscribir OnRegistrado de mailSender para que escuche el evento Registrado enviado por servidor
-            server.Registered += mailSender.OnRegistered;
-            //2- Suscribir OnCambiadaContrasena de mailSender para que escuche el evento CambiadaContrasena enviado por servidor
+            //1- Suscribir OnRegistered de mailSender para que escuche el evento Registrado enviado por servidor
+            server.Registered += mailSender.OnRegistered ;
+            //2- Suscribir OnPasswordChanged de mailSender para que escuche el evento PasswordChanged enviado por servidor
             server.PasswordChanged += mailSender.OnPasswordChanged;
-            //3- Suscribir OnCambiadaContrasena de smsSender para que escuche el evento CambiadaContrasena enviado por servidor
+            //3- Suscribir OnPasswordChanged de smsSender para que escuche el evento PasswordChanged enviado por servidor
             server.PasswordChanged += smsSender.OnPasswordChanged;
+            //4- Suscribir OnEmailSent de user, para que escuche el evento EmailSent enviado por mailSender
+            mailSender.EmailSent += user.OnEmailSent;
+            //5- Suscribir OnEmailVerified de server, para que escuche el evento EmailVerified enviado por user
+            user.EmailVerified += server.OnEmailVerified;
 
 
             // Controla la ejecucion mientras el usuario no quiera salir
